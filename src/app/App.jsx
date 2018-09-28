@@ -6,7 +6,7 @@ import { history } from '../_helpers';
 import { alertActions } from '../_actions';
 import { PrivateRoute } from '../component/PrivateRoute/PrivateRoute';
 import  HomePage  from '../component/userProfile/userProfile';
-import  Login  from '../component/login/login';
+import  { Login }  from '../component/login/login';
 import  RegisterPage  from '../component/registration/registration';
 
 class App extends React.Component {
